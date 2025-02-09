@@ -47,7 +47,7 @@ export default function Dashboard() {
         <div className="bg-white/10 backdrop-blur-lg rounded-xl p-6 text-white">
           <div className="flex items-center gap-4 mb-6">
             <div className="h-16 w-16 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-xl font-bold">
-              {getInitials(employee.name)}
+              <img src="https://media.tenor.com/wxjjQc2HzgoAAAAM/cattt.gif" alt="profile" className="h-16 w-16 rounded-full bg-gradient-to-br" />
             </div>
             <div>
               <h2 className="text-2xl font-bold">{employee.name}</h2>
