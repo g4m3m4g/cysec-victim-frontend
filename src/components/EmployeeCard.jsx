@@ -47,15 +47,15 @@ const EmployeeCard = ({ id }) => {
   return (
     <Link to={`/employee/${emdata?.id}`}>
       <div className="p-6 bg-white shadow-lg rounded-lg text-center transform transition-all hover:scale-105 hover:shadow-xl">
-        <h2 className="text-2xl font-bold text-gray-800 mb-4">Employee Info</h2>
+        <div className="items-center justify-center flex">
+        <img
+            src={`https://i.pravatar.cc/150?img=${id}`}
+            alt="Profile"
+            className="w-32 h-32  rounded-full border-4 border-gray-200"
+          />
+        </div>
         <p className="text-gray-600">
-          <span className="font-semibold">ID:</span> {emdata?.id}
-        </p>
-        <p className="text-gray-600">
-          <span className="font-semibold">Name:</span> {emdata?.name}
-        </p>
-        <p className="text-gray-600">
-          <span className="font-semibold">Email:</span> {emdata?.email}
+          <span className="font-semibold text-xl">{emdata?.name}</span> 
         </p>
       </div>
     </Link>

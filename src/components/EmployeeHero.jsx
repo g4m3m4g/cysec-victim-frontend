@@ -1,7 +1,7 @@
 import EmployeeCard from "./EmployeeCard";
 
 const EmployeeHero = () => {
-  const head = [1, 2, 3]; // Example employee IDs
+  const head = [1, 2, 3, 4, 5, 6, 7, 8, 9]; // Example employee IDs
 
   return (
     <div className="my-20 p-10 bg-gray-50">
